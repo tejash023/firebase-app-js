@@ -10,12 +10,15 @@ body {
   justify-content: center;
 }
 
-.login {
+.login,
+.signup {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
   width: 20%;
-  background: orange;
+
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+
   padding: 3%;
   border-radius: 10px;
   align-items: center;
@@ -35,7 +38,18 @@ button {
   border-radius: 50px;
   background: green;
   color: white;
+  border: 1px solid white;
   width: 50%;
+  cursor: pointer;
+}
+h3 {
+  margin: 0;
+  color: white;
+}
+p {
+  margin: 0;
+  color: white;
+  font-size: 0.8rem;
 }
 
 .social-login {
