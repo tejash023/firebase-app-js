@@ -38,7 +38,7 @@ button {
   border-radius: 50px;
   background: green;
   color: white;
-  border: 1px solid white;
+
   width: 50%;
   cursor: pointer;
 }
